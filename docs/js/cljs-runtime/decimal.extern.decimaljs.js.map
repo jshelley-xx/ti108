@@ -1,0 +1,1 @@
+{"version":3,"sources":["decimal/extern/decimaljs.cljs"],"mappings":";;AAEA,kBAAA,lBAACA,uCAA0C;AAAA,AAAOC","names":["js/goog.exportSymbol","js/module$node_modules$decimal_DOT_js$decimal"],"sourcesContent":["(ns decimal.extern.decimaljs\n  (:require [\"decimal.js\" :as decimal-js]))\n(js/goog.exportSymbol \"Decimal.noConflict\" (fn [] decimal-js))"]}

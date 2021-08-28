@@ -1,0 +1,9 @@
+<html>
+  <head>
+    <title>calculator</title>
+  </head>
+  <body>
+    <div id="app"/>
+    <script src="js/app.js"/>
+  </body>
+</html>

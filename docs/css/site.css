@@ -1,0 +1,84 @@
+body {
+  font-family: 'Helvetica Neue', Verdana, Helvetica, Arial, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding-top: 72px;
+  -webkit-font-smoothing: antialiased;
+  font-size: 1.125em;
+  color: white;
+  line-height: 1.5em;
+}
+button {
+  color: white;
+}
+.calculator {
+  background-color: #035194;
+  height: 700px;
+  width: 400px;
+  border: 2px black solid;
+  border-radius: 5px 5px 30px 30px;
+  padding: 10px;
+}
+.calculator .displayWrapper {
+  text-align: center;
+  padding: 5%;
+}
+.calculator .displayWrapper .display {
+  color: black;
+  background-color: #b9b9b9;
+  letter-spacing: 10px;
+  padding-top: 6px;
+  line-height: 38px;
+  text-align: right;
+  font-size: 46px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+.calculator .brandingWrapper {
+  border-bottom: 2px #666 solid;
+}
+.calculator .brandingWrapper .company {
+  position: relative;
+  font-size: 18px;
+  display: inline;
+}
+.calculator .brandingWrapper .model {
+  display: inline;
+  position: relative;
+  left: 10px;
+  top: 28px;
+  font-size: 60px;
+  font-weight: bold;
+}
+.calculator .brandingWrapper .solar {
+  height: 50px;
+  width: 180px;
+  background-color: black;
+  margin-bottom: 10px;
+}
+.calculator .buttonWrapper {
+  padding: 10px;
+  border: 1px #666 solid;
+}
+.calculator .buttonWrapper button {
+  margin: 12px;
+  border: 0px black solid;
+  box-shadow: 0 2px 14px #000;
+  padding-bottom: 20px;
+  width: 64px;
+  height: 50px;
+  border-radius: 5px;
+  text-align: left;
+  font-size: 24px;
+  vertical-align: text-top;
+}
+.calculator .buttonWrapper button.func {
+  font-weight: bold;
+  background-color: #dc363e;
+}
+.calculator .buttonWrapper button.digit {
+  color: black;
+}
+.calculator .buttonWrapper button.wide-berth {
+  margin-left: 30px;
+}

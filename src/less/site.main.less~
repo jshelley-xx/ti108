@@ -1,0 +1,105 @@
+// Less4clj considers files ending in .main.less entrypoints, i.e. they are compiled to .css files
+// Other files can be included using @import:
+
+// @import "profile";
+
+body {
+  font-family: 'Helvetica Neue', Verdana, Helvetica, Arial, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding-top: 72px;
+  -webkit-font-smoothing: antialiased;
+  font-size: 1.125em;
+  color: #333;
+  line-height: 1.5em;
+}
+
+h1, h2, h3 {
+  color: #000;
+}
+h1 {
+  font-size: 2.5em
+}
+
+h2 {
+  font-size: 2em
+}
+
+h3 {
+  font-size: 1.5em
+}
+
+a {
+  text-decoration: none;
+  color: #09f;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.calculator {
+    background-color: #035194;
+    color: purple;
+    height: 700px;
+    width: 400px;
+    border: 2px black solid;
+    border-radius: 5px 5px 30px 30px;
+    padding: 10px;
+
+    .displayWrapper {
+	text-align: center;
+	padding: 5%;
+	
+	.display {
+	    color: black;
+	    background-color: #b9b9b9;
+	    letter-spacing: 10px;
+	    padding-top: 6px;
+
+	    line-height: 38px;
+	    text-align: right;
+	    font-size: 46px;
+	    font-weight: bold;
+	    border-radius: 4px;
+	}
+    }
+
+    .brandingWrapper {
+	color: white;
+	border-bottom: 2px #666 solid;
+	
+	.company {
+	    position:relative;
+	    font-size: 18px;
+	    display: inline;
+	}
+	
+	.model {
+	    display: inline;
+	    position: relative;
+	    left: 10px;
+	    top: 28px;
+	    font-size: 60px;
+	    font-style: bold;
+	}
+	.solar {
+	    height: 50px;
+	    width: 180px;
+	    background-color: black;
+	    margin-bottom: 10px;
+	}
+
+	.buttonWrapper {
+	    padding: 20px;
+	    border: 1px #666 solid;
+	    
+	    .button {
+		border: 1px black solid;
+		color: white;
+	    }
+
+	}
+		   
+    }
+}
